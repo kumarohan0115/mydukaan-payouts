@@ -1,0 +1,99 @@
+.txn-cont {
+    padding: 2rem;
+    .table-container {
+      margin: 20px 0;
+      background-color: white;
+      border-radius: 6px;
+      padding: 8px 10px;
+      overflow-x: auto;
+  
+      @media (max-width: 768px) {
+        .table-header {
+          width: auto;
+        }
+  
+        table {
+          white-space: nowrap; 
+        }
+      }
+  
+      .top-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        left: 0;
+      }
+    }
+  
+    .txn-btns {
+      margin-top: 24px;
+      display: flex;
+      gap: 12px;
+  
+      button {
+        border: none;
+        padding: 6px 16px;
+        gap: 10px;
+        font-size: 14px;
+        border-radius: 40px;
+  
+        &.payouts-btn {
+          background-color: #E6E6E6;
+          color: #808080;
+        }
+  
+        &.refunds-btn {
+          background-color: #146eb4;
+          color: #fff;
+        }
+      }
+    }
+  
+    .search-order-id {
+      padding: 6px 8px 6px 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      display: flex;
+      gap: 6px;
+      align-items: center;
+      width: 240px;
+      color: #71717a;
+  
+      input {
+        padding: 4px 0;
+        font-size: 14px;
+        font-family: Inter, sans-serif;
+        outline: none;
+        border: none;
+        width: 100%;
+  
+        &::placeholder {
+          color: #999999;
+        }
+      }
+    }
+  
+    .table-filters {
+      display: flex;
+      gap: 20px;
+  
+      > div {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        padding: 6px 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: white;
+        color: #3f3f46;
+      }
+  
+      .sort-btn {
+        color: "#4D4D4D";
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+      }
+    }
+}

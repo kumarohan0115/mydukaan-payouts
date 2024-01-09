@@ -1,0 +1,82 @@
+.table-header {
+  margin-top: 10px;
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  font-size: 14px;
+  border-collapse: collapse;
+}
+
+table thead {
+  background-color: #f2f2f2;
+  color: #71717a;
+  font-weight: 400;
+  text-align: left;
+  padding: 10px 12px;
+}
+
+table thead tr th {
+  padding: 10px 12px;
+  font-weight: 500;
+  color: #4d4d4d;
+}
+
+table tbody tr {
+  border-bottom: 2px solid #f7f7f7;
+}
+
+table tbody tr td {
+  padding: 14px 12px;
+}
+
+table thead th:last-child,
+table tbody td:last-child {
+  text-align: right;
+}
+
+table tbody tr:last-child {
+  border: 0;
+}
+
+.odr-id {
+  color: #146eb4;
+  font-weight: 500;
+}
+
+.odr-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #4D4D4D;
+}
+
+.pending {
+  background-color: #999999;
+  height: 10px;
+  width: 10px;
+  border-radius: 100%;
+}
+
+.done {
+  background-color: #17B31B;
+  height: 10px;
+  width: 10px;
+  border-radius: 100%;
+  color: #1A181E;
+}
+
+.odr-txn-id, .odr-date, .odr-price {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #4D4D4D;
+}
+
+.odr-txn-total {
+  color: #1e2640;
+}

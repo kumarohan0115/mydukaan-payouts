@@ -1,0 +1,43 @@
+
+@font-face {
+  font-family: "galano";
+  src: local("Galano Grotesque"),
+    url("./assets/fonts/Galano/GalanoGrotesqueAlt-Regular.woff") format("truetype");
+}
+@font-face {
+  font-family: "galanobold";
+  src: local("Galano Grotesque"),
+    url("./assets/fonts/Galano/GalanoGrotesqueAlt-Bold.woff") format("truetype");
+}
+@font-face {
+  font-family: "galanosemi";
+  src: local("Galano Grotesque"),
+    url("./assets/fonts/Galano/GalanoGrotesqueAlt-Medium.woff") format("truetype");
+}
+@font-face {
+  font-family: "galanosemibold";
+  src: local("Galano Grotesque"),
+    url("./assets/fonts/Galano/GalanoGrotesqueAlt-SemiBold.woff") format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Inter, serif;
+  background-color: white;
+  font-family: "Galano";
+
+}
+.main {
+  display: flex;
+}
+
+.icon-color-white svg path{
+  fill: white
+}
+
+.icon-color-gray svg path {
+  fill: #4D4D4D;
+}
